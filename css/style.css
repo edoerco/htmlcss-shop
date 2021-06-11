@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.oggetti {
+    height: 450px;
+    width: 300px;
+    position: relative;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.row .oggetti {
+    display: inline-block;
+}
+
+.cuore {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.sconto {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+.sos {
+    position: absolute;
+    left: 55px;
+    bottom: 40px;
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.prezzo {
+    color: red;
+}
+
+.prezzo-scontato {
+    text-decoration: line-through;
+}
