@@ -54,6 +54,15 @@ img {
     color: white;
 }
 
+.sos-2 {
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+
 h3 {
     text-transform: uppercase;
 }
@@ -65,3 +74,4 @@ h3 {
 .prezzo-scontato {
     text-decoration: line-through;
 }
+
