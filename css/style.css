@@ -75,3 +75,14 @@ h3 {
     text-decoration: line-through;
 }
 
+.secondo {
+    display: none;
+}
+
+.oggetti:hover .primo {
+    display: none;
+}
+
+.oggetti:hover .secondo {
+    display: inline-block;
+}
